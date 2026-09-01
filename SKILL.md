@@ -1,7 +1,6 @@
 ---
 name: requirements-grilling
 description: Interview the user about a plan, design, or feature until the important decisions, constraints, and success criteria are explicit.
-disable-model-invocation: true
 ---
 
 # Requirements Grilling
