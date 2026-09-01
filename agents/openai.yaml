@@ -1,0 +1,6 @@
+interface:
+  display_name: "Requirements Grilling"
+  short_description: "Clarify plans before implementation"
+  default_prompt: "Use $requirements-grilling to clarify this plan before implementation."
+policy:
+  allow_implicit_invocation: false
