@@ -1,6 +1,6 @@
 ---
 name: requirements-grilling
-description: Interview the user about a plan, design, or feature until the important decisions, constraints, and success criteria are explicit.
+description: Interview the user about a plan, design, or feature until the important decisions, constraints, and acceptance criteria are explicit, then deliver a decision record. Use when the user asks to be grilled on, stress-test, or clarify requirements before implementation. Not for recording durable terminology or ADRs (use domain-context) or for implementing the plan.
 ---
 
 # Requirements grilling
@@ -41,6 +41,8 @@ Finish with the agreed goal, audience, in-scope behaviour, non-goals,
 constraints, acceptance criteria, risks, decisions, and remaining assumptions.
 Call out any blocker that still requires authority or information. Stop when a
 different implementer could proceed without inventing product behaviour.
+Deliver the decision record in the conversation unless the user asks for a
+file.
 
 If durable project terminology or architecture decisions emerged, offer
 `domain-context`. Do not create tickets, edit external systems, or send messages
